@@ -68,7 +68,6 @@ const Login = () => {
   }, [])
 
   const { isLoggedIn } = useSelector((state) => state.userReducer.auth)
-
   const dispatch = useDispatch()
 
   const handleLogin = (data) => {
