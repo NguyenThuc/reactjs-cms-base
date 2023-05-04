@@ -4,7 +4,6 @@ import {
   CButton,
   CCard,
   CCardBody,
-  CCardImage,
   CCol,
   CContainer,
   CForm,
@@ -30,7 +29,7 @@ import { login } from '../../../actions/auth'
 import './Login.css'
 import backGroundLogin from '../../../assets/images/signin-bg-1.jpg'
 import logoBig from '../../../assets/images/logo-big.png'
-import castisBrand from '../../../assets/brand/castis-brand.png'
+//import castisBrand from '../../../assets/brand/castis-brand.png'
 import { LoadCanvasTemplate, loadCaptchaEnginge, validateCaptcha } from 'react-simple-captcha'
 import { useForm } from 'react-hook-form'
 import { SingleErrorMessage } from '../../../common/custom-error-message/CustomErrorMessage'
@@ -101,7 +100,7 @@ const Login = () => {
             <CCol md={6}>
               <CRow>
                 <CCard className="text-white p-4 signIn-info col-md-5">
-                  <CCardBody className="clearfix" title="딜라이브">
+                  <CCardBody className="clearfix" title="">
                     <div>
                       <CImage
                         style={{
@@ -112,7 +111,6 @@ const Login = () => {
                         }}
                         src={logoBig}
                       />
-                      &nbsp; 딜라이브
                     </div>
                     <div
                       style={{
@@ -149,7 +147,6 @@ const Login = () => {
                   </CCardBody>
                 </CCard>
                 <CCard className="p-4 col-md-7">
-                  <CCardImage orientation="top" src={castisBrand} />
                   <CCardBody>
                     <CForm onSubmit={handleSubmit(handleLogin)}>
                       <CInputGroup className="mb-3">
