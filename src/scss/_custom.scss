@@ -1,0 +1,30 @@
+// Here you can add other styles
+.dropdown-item.active, .dropdown-item:active{
+  background-color:darkgray !important;
+}
+.dropdown-item {
+  cursor: pointer!important;
+}
+.react-dropdown-tree-select ul {
+  color: black!important;
+  font-size: 14px;
+}
+.btn-action-tree {
+  margin: 0 3px;
+  cursor: pointer
+}
+.wrap-tree {
+  flex: 1 0 50%; padding: 0 0 0 15px; margin: 15px 0
+}
+.head-common-tree {
+  flex: 0 0 auto;
+  padding: 0 15px
+}
+.wrap-common-tre {
+  display: flex ;
+  flex-direction: column ;
+  height: 100vh
+}
+.btn-tree {
+  padding-right: 30px;
+}

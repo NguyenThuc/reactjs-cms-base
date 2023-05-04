@@ -1,0 +1,1 @@
+export const RECAPTCHA_SITE_KEY = '6LfVp_QcAAAAAIfSdfNSj4mCCEsdDcj5Pt10-Dj0'
